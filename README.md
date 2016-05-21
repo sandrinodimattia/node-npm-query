@@ -132,6 +132,9 @@ queue.on('data', (moduleId, downloads) => {
 queue.add('bluebird');
 queue.add('jquery');
 
+// You can inspect the current queue length.
+console.log(queue.length());
+
 // You can also control the queue
 queue.pause();
 queue.resume();

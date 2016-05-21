@@ -31,7 +31,7 @@ export default class NpmDownloadsQueue extends EventEmitter {
     });
   }
 
-  queueLength() {
+  length() {
     return this.queue.length();
   }
 
