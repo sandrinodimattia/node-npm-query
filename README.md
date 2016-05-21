@@ -84,10 +84,10 @@ Returns:
 
 ```json
 {
-  downloads: 351701,
-  start: '2016-05-20',
-  end: '2016-05-20',
-  package: 'bluebird'
+  "downloads": 351701,
+  "start": '2016-05-20',
+  "end": '2016-05-20',
+  "package": 'bluebird'
 }
 ```
 
@@ -108,14 +108,13 @@ Returns:
 
 ```json
 {
-  last_day: 351701,
-  last_week: 2057550,
-  last_month: 7966475
+  "last_day": 351701,
+  "last_week": 2057550,
+  "last_month": 7966475
 }
 ```
 
 #### Collect download statistics in bulk
-
 
 ```js
 import { NpmDownloadsQueue } from 'npm-query';
