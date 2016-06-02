@@ -34,7 +34,7 @@ npmClient.getModule('bluebird')
 
 #### Get Modules Stream
 
-The library allows you to get all modules since a certain point (a sequence).
+A the module stream will notify you of any changes in the NPM registry since a certain point in time (the `sequence`). Each time a new or updated package is published you'll receive the updated details of the module.
 
 ```js
 import { NpmClient } from 'npm-query';
